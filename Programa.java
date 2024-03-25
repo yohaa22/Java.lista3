@@ -3,7 +3,9 @@ public class Programa {
   
         //Exercicio01.main(args);   
 
-        Exercicio02.main(args);   
+        //Exercicio02.main(args);  
+
+        Exercicio03.main(args);    
 
     }
     }
