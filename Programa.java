@@ -37,7 +37,9 @@ public class Programa {
       
       //Exercicio18.main(args);    
 
-      Exercicio19.main(args); 
+    // Exercicio19.main(args); 
+
+      Exercicio20.main(args); 
 
     }
     }
