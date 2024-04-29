@@ -1,8 +1,9 @@
- import java.util.Scanner;
+// Exercicio01.java
+import java.util.Scanner;
 
 public class Exercicio01 {
 
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o nome do aluno: ");
@@ -17,8 +18,8 @@ public class Exercicio01 {
         System.out.print("Digite a nota da terceira prova: ");
         double nota3 = scanner.nextDouble();
         
-
-        Aluno01 aluno = new Aluno01(nome, nota1, nota2, nota3);
+        // Adicionando a declaração de importação da classe Aluno
+        var aluno = new Aluno01(nome, nota1, nota2, nota3);
 
         System.out.println("Nome do aluno: " + aluno.getNome());
         System.out.println("Média: " + aluno.calcularMedia());
@@ -26,6 +27,4 @@ public class Exercicio01 {
         scanner.close();
     }
 }
- 
-    
 
