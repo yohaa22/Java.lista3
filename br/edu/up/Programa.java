@@ -29,6 +29,10 @@ public class Programa {
                Exercicio05.Executar();
                break;
 
+               case 6:
+               Exercicio06.Executar();
+               break;
+
 
 
               default:
