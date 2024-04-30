@@ -1,8 +1,13 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Curso24;
+
 public class Exercicio24 {
-    public static void main(String[] args) {
+
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Digite a nota do trabalho de laboratório:");
         double notaLaboratorio = scanner.nextDouble();
