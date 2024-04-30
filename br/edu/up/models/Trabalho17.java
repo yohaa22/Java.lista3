@@ -1,7 +1,8 @@
+package br.edu.up.models;
 public class Trabalho17 {
-     String nome;
-     double salarioAtual;
-     double salarioMinimo;
+    private String nome;
+    private double salarioAtual;
+    private double salarioMinimo;
 
     public Trabalho17(String nome, double salarioAtual, double salarioMinimo) {
         this.nome = nome;
@@ -29,5 +30,17 @@ public class Trabalho17 {
 
     public String getNome() {
         return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getSalarioAtual() {
+        return salarioAtual;
+    }
+
+    public void setSalarioAtual(double salarioAtual) {
+        this.salarioAtual = salarioAtual;
     }
 }
