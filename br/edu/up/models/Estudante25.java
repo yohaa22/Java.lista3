@@ -1,3 +1,5 @@
+package br.edu.up.models;
+
 public class Estudante25 {
     private String nome;
     private int numeroMatricula;
@@ -14,8 +16,7 @@ public class Estudante25 {
     }
 
     public double calcularNotaFinal() {
-        double notaFinal = (notaLaboratorio * 2 + notaAvaliacaoSemestral * 3 + notaExameFinal * 5) / 10;
-        return notaFinal;
+        return (notaLaboratorio * 2 + notaAvaliacaoSemestral * 3 + notaExameFinal * 5) / 10;
     }
 
     public String classificarEstudante() {
@@ -37,8 +38,16 @@ public class Estudante25 {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public int getNumeroMatricula() {
         return numeroMatricula;
+    }
+
+    public void setNumeroMatricula(int numeroMatricula) {
+        this.numeroMatricula = numeroMatricula;
     }
 
     public double getNotaFinal() {
