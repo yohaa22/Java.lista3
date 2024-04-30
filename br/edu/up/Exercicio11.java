@@ -4,7 +4,7 @@ import java.util.Scanner;
 import br.edu.up.models.Humanos11;
 
 public class Exercicio11 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         int totalHomens = 0;
