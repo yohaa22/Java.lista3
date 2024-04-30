@@ -1,5 +1,6 @@
+package br.edu.up.models;
 public class Pessoa10 {
-     int idade;
+    private int idade;
 
     public Pessoa10(int idade) {
         this.idade = idade;
@@ -11,5 +12,13 @@ public class Pessoa10 {
         } else {
             return "menor de idade";
         }
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
