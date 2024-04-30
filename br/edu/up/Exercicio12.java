@@ -1,7 +1,10 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Carango12;
+
 public class Exercicio12 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
         int totalCarrosAte2000 = 0;
         int totalGeral = 0;
@@ -27,12 +30,11 @@ public class Exercicio12 {
         System.out.println("Total geral: " + totalGeral);
 
         System.out.print("Deseja continuar calculando desconto? (S/N): ");
-            if (scanner.hasNextLine()) {
-                continuar = scanner.nextLine().toUpperCase().charAt(0);
-            } else {
-                // Se não houver mais entradas, encerre o programa
-                
-            }
+        if (scanner.hasNextLine()) {
+            continuar = scanner.nextLine().toUpperCase().charAt(0);
+        } else {
+            // Se não houver mais entradas, encerre o programa
+        }
 
         scanner.close();
     }
