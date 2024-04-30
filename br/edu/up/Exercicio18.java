@@ -1,7 +1,10 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Trampo18;
+
 public class Exercicio18 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe o nome do funcionário:");
