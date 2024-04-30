@@ -37,6 +37,12 @@ public class Programa {
                Exercicio07.Executar();
                break;
 
+               
+               case 8:
+               Exercicio08.Executar();
+               break;
+
+
 
 
 
