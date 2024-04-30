@@ -21,8 +21,14 @@ public class Programa {
                Exercicio03.Executar();
                break;
 
+               case 4:
+               Exercicio04.Executar();
+               break;
+
+
               default:
               break;
       }
+      
   }
 }
