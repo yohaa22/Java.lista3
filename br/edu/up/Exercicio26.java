@@ -1,9 +1,12 @@
+package br.edu.up;
 import java.util.Scanner;
 
-public class Exercicio26 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+import br.edu.up.models.Seguradora26;
 
+public class Exercicio26 {
+    public static void Executar() {
+        Scanner scanner = new Scanner(System.in);
+        
         System.out.println("Digite o nome do pretendente:");
         String nome = scanner.nextLine();
 

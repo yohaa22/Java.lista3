@@ -1,3 +1,4 @@
+package br.edu.up.models;
 public class Seguradora26 {
     private String nome;
     private int idade;
@@ -42,11 +43,23 @@ public class Seguradora26 {
         return nome;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public int getIdade() {
         return idade;
     }
 
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
     public int getGrupoRisco() {
         return grupoRisco;
+    }
+
+    public void setGrupoRisco(int grupoRisco) {
+        this.grupoRisco = grupoRisco;
     }
 }
