@@ -33,6 +33,11 @@ public class Programa {
                Exercicio06.Executar();
                break;
 
+               case 7:
+               Exercicio07.Executar();
+               break;
+
+
 
 
               default:
