@@ -1,7 +1,10 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Luz22;
+
 public class Exercicio22 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Informe o tipo de cliente (Residência(R), Comércio(C) ou Indústria(I)):");

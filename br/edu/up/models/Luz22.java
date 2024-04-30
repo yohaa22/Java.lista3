@@ -1,3 +1,4 @@
+package br.edu.up.models;
 public class Luz22 {
     private String tipoCliente;
     private double valorKWh;
@@ -25,5 +26,22 @@ public class Luz22 {
 
     public double calcularConta(int consumo) {
         return valorKWh * consumo;
+    }
+
+    public String getTipoCliente() {
+        return tipoCliente;
+    }
+
+    public void setTipoCliente(String tipoCliente) {
+        this.tipoCliente = tipoCliente;
+        definirValorKWh();
+    }
+
+    public double getValorKWh() {
+        return valorKWh;
+    }
+
+    public void setValorKWh(double valorKWh) {
+        this.valorKWh = valorKWh;
     }
 }
