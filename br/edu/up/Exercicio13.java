@@ -1,9 +1,12 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Militares13;
+
 public class Exercicio13 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Quantas pessoas deseja cadastrar? ");
         int quantidadePessoas = scanner.nextInt();
         scanner.nextLine(); // Limpar o buffer do scanner
