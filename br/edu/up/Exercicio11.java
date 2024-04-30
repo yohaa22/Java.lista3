@@ -1,4 +1,7 @@
+package br.edu.up;
 import java.util.Scanner;
+
+import br.edu.up.models.Humanos11;
 
 public class Exercicio11 {
     public static void main(String[] args) {

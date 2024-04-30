@@ -1,3 +1,5 @@
+package br.edu.up.models;
+
 public class Humanos11 {
     private String nome;
     private char sexo;

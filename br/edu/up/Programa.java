@@ -48,6 +48,13 @@ public class Programa {
                 case 10:
                 Exercicio10.Executar();
                 break;
+
+                case 11:
+                Exercicio11.Executar();
+                break;
+
+
+
             default:
                 break;
         }
