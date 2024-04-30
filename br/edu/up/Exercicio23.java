@@ -1,7 +1,11 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Mmc23;
+
 public class Exercicio23 {
-    public static void main(String[] args) {
+    
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o nome da pessoa:");

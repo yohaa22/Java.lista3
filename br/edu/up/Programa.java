@@ -97,6 +97,11 @@ public class Programa {
                 Exercicio22.Executar();
                 break;
 
+                case 23:
+                Exercicio23.Executar();
+                break;
+
+
 
 
 
