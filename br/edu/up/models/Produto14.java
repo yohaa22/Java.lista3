@@ -1,6 +1,6 @@
+package br.edu.up.models;
 
-
-class Produto14 {
+public class Produto14 {
     private double precoCusto;
     private double precoVenda;
 
@@ -13,8 +13,16 @@ class Produto14 {
         return precoCusto;
     }
 
+    public void setPrecoCusto(double precoCusto) {
+        this.precoCusto = precoCusto;
+    }
+
     public double getPrecoVenda() {
         return precoVenda;
+    }
+
+    public void setPrecoVenda(double precoVenda) {
+        this.precoVenda = precoVenda;
     }
 
     public String verificarLucroOuPrejuizo() {
@@ -27,4 +35,3 @@ class Produto14 {
         }
     }
 }
-

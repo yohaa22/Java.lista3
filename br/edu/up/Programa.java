@@ -60,6 +60,10 @@ public class Programa {
                 case 13:
                 Exercicio13.Executar();
                 break;
+                
+                case 14:
+                Exercicio14.Executar();
+                break;
 
 
 
