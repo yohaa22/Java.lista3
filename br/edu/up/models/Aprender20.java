@@ -1,3 +1,4 @@
+package br.edu.up.models;
 public class Aprender20 {
     private int nivel;
     private double valorHoraAula;
@@ -25,5 +26,22 @@ public class Aprender20 {
 
     public double calcularSalario(int horasAula) {
         return valorHoraAula * horasAula;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+        definirValorHoraAula();
+    }
+
+    public double getValorHoraAula() {
+        return valorHoraAula;
+    }
+
+    public void setValorHoraAula(double valorHoraAula) {
+        this.valorHoraAula = valorHoraAula;
     }
 }
