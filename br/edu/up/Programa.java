@@ -81,6 +81,11 @@ public class Programa {
                 Exercicio18.Executar();
                 break;
 
+                case 19:
+                Exercicio19.Executar();
+                break;
+
+
 
 
 
