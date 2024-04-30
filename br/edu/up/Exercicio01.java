@@ -1,5 +1,9 @@
+package br.edu.up;
+
 // Exercicio01.java
 import java.util.Scanner;
+
+import br.edu.up.models.Aluno01;
 
 public class Exercicio01 {
 
