@@ -1,3 +1,4 @@
+package br.edu.up.models;
 import java.util.Scanner;
 
 public class Concessionaria15 {
