@@ -1,7 +1,8 @@
+package br.edu.up.models;
 public class Funcionario16 {
-     String nome;
-     double salario;
-     static final double SALARIO_MINIMO = 1100; // Valor do salário mínimo
+    private String nome;
+    private double salario;
+    private static final double SALARIO_MINIMO = 1100; // Valor do salário mínimo
 
     public Funcionario16(String nome, double salario) {
         this.nome = nome;
@@ -27,7 +28,15 @@ public class Funcionario16 {
         return salario;
     }
 
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
     public String getNome() {
         return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
