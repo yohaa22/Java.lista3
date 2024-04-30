@@ -1,3 +1,4 @@
+package br.edu.up.models;
 public class Numeros09 {
     private int[] numeros;
 
@@ -13,5 +14,13 @@ public class Numeros09 {
             }
         }
         return contador;
+    }
+
+    public int[] getNumeros() {
+        return numeros;
+    }
+
+    public void setNumeros(int[] numeros) {
+        this.numeros = numeros;
     }
 }

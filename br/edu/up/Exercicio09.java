@@ -1,7 +1,10 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Numeros09;
+
 public class Exercicio09 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         int[] numeros = new int[80];
