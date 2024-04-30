@@ -1,3 +1,4 @@
+package br.edu.up.models;
 public class Nadador21 {
     private int idade;
 
@@ -19,5 +20,13 @@ public class Nadador21 {
         } else {
             return "Idade fora da faixa etária";
         }
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }

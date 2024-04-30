@@ -1,7 +1,10 @@
+package br.edu.up;
 import java.util.Scanner;
 
+import br.edu.up.models.Nadador21;
+
 public class Exercicio21 {
-    public static void main(String[] args) {
+    public static void Executar() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite a idade do nadador:");
